@@ -1,0 +1,34 @@
+[
+  {
+    "ContainingType": "MassTransitRabbitMq.Controllers.ProductController",
+    "Method": "Post",
+    "RelativePath": "api/product/add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "product",
+        "Type": "Shared.ProductCreateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MassTransitRabbitMq.Controllers.ProductController",
+    "Method": "Index",
+    "RelativePath": "api/product/all",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
